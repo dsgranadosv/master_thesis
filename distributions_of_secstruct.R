@@ -7,13 +7,17 @@
 #######						           ########
 ###################################################################
 ###################################################################
-# Description:  
-# #
-# #
-# #
-# #
-# #
-# #
+# Description: This script makes a multiplot figure that is       #
+# composed by three plots comparing the distribution of the per-  #
+# centage of residues in alpha or beta conformation in wildtype   #
+# LAO and in the the three mutants L117K, L117R, L117Q (one plot  #
+# for each comparision. Next to each plot is written a number that#
+# represents the fraction of overlapping between densities. For   #
+# calculating these values is necessary to install the libraries  #
+# overlapping and ggplot2. if you don't have it, you can always   #
+# install them by typing:					  #
+#  <install.packages("overlapping", dependencies=TRUE)>		  #
+#  <install.packages("ggplot2", dependencies=TRUE)>         	  #
 # Author: Diego Granados					  #
 # Date: February 05, 2018					  #
 # R-Version: 3.2.3						  #	
