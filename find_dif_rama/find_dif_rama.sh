@@ -13,7 +13,6 @@
 ####  								#####
 #####################################################################
 ##### Running the KS-TEST for every residue for all the mutants #####
-# WARNING: THIS STEP IS LOOONG. I NEED TO FIND A QUICKER IMPLEMENTATION OF THIS TEST
 for i in L117K L117R L117Q
 do
 sed "s/modelo/$i/g" Rscripts/ks_test.R > "$i".tmp
@@ -26,4 +25,4 @@ Rscript Rscripts/construct_figure.R
 ###########################
 # Cleaning temporal files #
 ###########################
-rm *.tmp 
+#rm *.tmp 
