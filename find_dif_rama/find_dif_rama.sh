@@ -12,6 +12,8 @@
 ####  Author: Diego Granados					#####	
 ####  								#####
 #####################################################################
+#Uncompress data files
+gunzip -f pp_*.dat.gz
 ##### Running the KS-TEST for every residue for all the mutants #####
 for i in L117K L117R L117Q
 do
@@ -25,4 +27,4 @@ Rscript Rscripts/construct_figure.R
 ###########################
 # Cleaning temporal files #
 ###########################
-#rm *.tmp 
+rm *.tmp 
