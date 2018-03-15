@@ -1,0 +1,28 @@
+Error in legnth(pp_2LAO[, 1]) : could not find function "legnth"
+Calls: compare_dihedrals_mutants -> seq -> seq.default
+Execution halted
+Error in legnth(pp_2LAO[, 1]) : could not find function "legnth"
+Calls: compare_dihedrals_mutants -> seq -> seq.default
+Execution halted
+Error in legnth(pp_2LAO[, 1]) : could not find function "legnth"
+Calls: compare_dihedrals_mutants -> seq -> seq.default
+Execution halted
+Error in mut1[, i] : subscript out of bounds
+Calls: compare_dihedrals_mutants -> cbind
+Execution halted
+Error in mut1[, i] : subscript out of bounds
+Calls: compare_dihedrals_mutants -> cbind
+Execution halted
+Error in mut1[, i] : subscript out of bounds
+Calls: compare_dihedrals_mutants -> cbind
+Execution halted
+parallel: SIGTERM received. No new jobs will be started.
+parallel: Waiting for these 3 jobs to finish. Send SIGTERM again to stop now.
+parallel: Rscript L117Q.tmp
+parallel: Rscript L117R.tmp
+parallel: Rscript L117K.tmp
+parallel: SIGTERM received. No new jobs will be started.
+parallel: Waiting for these 3 jobs to finish. Send SIGTERM again to stop now.
+parallel: Rscript L117R.tmp
+parallel: Rscript L117K.tmp
+parallel: Rscript L117Q.tmp
