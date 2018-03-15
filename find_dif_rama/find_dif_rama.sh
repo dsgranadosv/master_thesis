@@ -25,4 +25,4 @@ Rscript Rscripts/construct_figure.R
 ###########################
 # Cleaning temporal files #
 ###########################
-#rm *.tmp 
+rm *.tmp 
