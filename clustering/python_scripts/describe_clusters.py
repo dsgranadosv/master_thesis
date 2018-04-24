@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 ###############################################################
-###		EXTRACT INFORMATION FOR CLUSTERS	    ###
+###		EXTRACT INFORMATION FROM CLUSTERS	    ###
 ###				        		    ###
 ### Autor: Diego Granados				    ###
 ### Date:23/04/18					    ###	
