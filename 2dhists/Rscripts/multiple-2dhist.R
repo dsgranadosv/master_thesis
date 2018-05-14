@@ -19,7 +19,7 @@ rf <- colorRampPalette(rev(brewer.pal(11,'Spectral')))
 r <- rf(20)
 ##### Generating the multiple plot figure #######
 # Device for saving the figure
-tiff("2dhists_and_boxplots.tiff", height = 19.3, width = 38, units = 'cm',compression = "lzw", res = 300)
+tiff("../figures/2dhists_and_boxplots.tiff", height = 19.3, width = 38, units = 'cm',compression = "lzw", res = 300)
 # Plot array
 patron<-c(1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,
 	  1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,
